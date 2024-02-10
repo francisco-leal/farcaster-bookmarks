@@ -1,0 +1,7 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cast_last_processed_timestamp: 1
+
+two:
+  cast_last_processed_timestamp: 1

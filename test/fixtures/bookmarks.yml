@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  cast: MyString
+  caster_id: 
+  transfer: one
+
+two:
+  user: two
+  cast: MyString
+  caster_id: 
+  transfer: two
