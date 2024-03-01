@@ -5,7 +5,7 @@ ruby "3.3.0"
 # Base rails dependencies
 gem "rails", github: "rails/rails", branch: "main"
 gem "propshaft"
-gem "pg", "~> 1.1"
+gem "pg", "~> 1.5"
 gem "puma", ">= 5.0"
 gem "importmap-rails"
 gem "turbo-rails"
