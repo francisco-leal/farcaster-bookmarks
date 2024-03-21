@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 0f9aaa5ca9b8421ebf42b3d7720632d4c1cae5fc
+  revision: 1e4f12c12c7d9f4c56eb8acff5f4a4f849f09fd8
   branch: main
   specs:
     actioncable (7.2.0.alpha)
@@ -101,7 +101,7 @@ GEM
       public_suffix (>= 2.0.2, < 6.0)
     ast (2.4.2)
     base64 (0.2.0)
-    bigdecimal (3.1.6)
+    bigdecimal (3.1.7)
     bindex (0.8.1)
     bootsnap (1.18.3)
       msgpack (~> 1.2)
@@ -127,8 +127,7 @@ GEM
     dotenv-rails (2.8.1)
       dotenv (= 2.8.1)
       railties (>= 3.2)
-    drb (2.2.0)
-      ruby2_keywords
+    drb (2.2.1)
     erubi (1.12.0)
     et-orbi (1.2.7)
       tzinfo
@@ -153,14 +152,14 @@ GEM
       raabro (~> 1.4)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    i18n (1.14.1)
+    i18n (1.14.4)
       concurrent-ruby (~> 1.0)
     importmap-rails (2.0.1)
       actionpack (>= 6.0.0)
       activesupport (>= 6.0.0)
       railties (>= 6.0.0)
     io-console (0.7.2)
-    irb (1.11.2)
+    irb (1.12.0)
       rdoc
       reline (>= 0.4.2)
     json (2.7.1)
@@ -175,7 +174,7 @@ GEM
       net-imap
       net-pop
       net-smtp
-    marcel (1.0.2)
+    marcel (1.0.4)
     matrix (0.4.2)
     method_source (1.0.0)
     mini_mime (1.1.5)
@@ -193,18 +192,18 @@ GEM
       timeout
     net-smtp (0.4.0.1)
       net-protocol
-    nio4r (2.7.0)
-    nokogiri (1.16.2-aarch64-linux)
+    nio4r (2.7.1)
+    nokogiri (1.16.3-aarch64-linux)
       racc (~> 1.4)
-    nokogiri (1.16.2-arm-linux)
+    nokogiri (1.16.3-arm-linux)
       racc (~> 1.4)
-    nokogiri (1.16.2-arm64-darwin)
+    nokogiri (1.16.3-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.16.2-x86-linux)
+    nokogiri (1.16.3-x86-linux)
       racc (~> 1.4)
-    nokogiri (1.16.2-x86_64-darwin)
+    nokogiri (1.16.3-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.16.2-x86_64-linux)
+    nokogiri (1.16.3-x86_64-linux)
       racc (~> 1.4)
     numerizer (0.1.1)
     openssl (3.2.0)
@@ -234,7 +233,7 @@ GEM
       nio4r (~> 2.0)
     raabro (1.4.0)
     racc (1.7.3)
-    rack (3.0.9)
+    rack (3.0.10)
     rack-session (2.0.0)
       rack (>= 3.0.0)
     rack-test (2.1.0)
@@ -262,7 +261,7 @@ GEM
     redis-client (0.19.1)
       connection_pool
     regexp_parser (2.9.0)
-    reline (0.4.2)
+    reline (0.4.3)
       io-console (~> 0.5)
     rexml (3.2.6)
     rubocop (1.60.2)
@@ -295,7 +294,6 @@ GEM
       rubocop-performance
       rubocop-rails
     ruby-progressbar (1.13.0)
-    ruby2_keywords (0.0.5)
     rubyzip (2.3.2)
     rufus-scheduler (3.9.1)
       fugit (~> 1.1, >= 1.1.6)
@@ -333,7 +331,7 @@ GEM
       railties (>= 6.0.0)
     tailwindcss-rails (2.3.0-x86_64-linux)
       railties (>= 6.0.0)
-    thor (1.3.0)
+    thor (1.3.1)
     tilt (2.3.0)
     timeout (0.4.1)
     turbo-rails (2.0.2)
